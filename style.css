@@ -1,0 +1,164 @@
+*{margin: 0;padding: 0;
+    font-family: sans-serif;
+}
+#container{
+    max-width: 1010px;
+    border: 1px solid rgb(205, 192, 192);
+    margin: 0 auto;
+}
+#topbar{
+    background-color:#ab183d ;
+    display: flex;
+    align-items: center;
+    
+}
+#logo{
+    width: 150px;padding: 15px;
+}
+#text{
+    width: 100%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+    margin-left:-50px;
+ 
+}
+#text h2,h4{
+    text-align: center;
+    
+}
+#text h2{
+    font-size: 45px;
+}
+#text h4{
+    font-size: 17px;
+}
+
+/* <!-- Menu bar Startts here============================ --> */
+#lists{
+    width: 100%;
+  display: flex;
+justify-content: space-between;
+
+}
+#lists li{
+    list-style: none;
+
+    /* display: inline-flex; */
+    padding: 14px 30px;
+    background-color: black;
+    margin: 0 px;
+}
+#lists li:hover{
+   
+    background-color: rgb(218, 181, 181);
+
+}
+#lists li a {
+    color: aliceblue;
+   
+}
+#social-links h2{
+    font-size: 20px;
+    text-align: center;
+    margin: 30px 0;
+}
+#social-links h2 a{
+    color:#0000f1;}
+
+    #social-links h5{
+        text-align: center;
+        color: white;
+        background-color: #1d9bf0;
+        width: 150px;
+        margin: 0 auto;
+        padding: 5px 10px;
+        border-radius: 50px;
+        
+    } 
+    #social-links h3{
+        text-align: center;
+margin: 30px; 
+}
+
+
+    #social-links h3 a{
+
+background-color: #0000a0;
+color: white;
+padding: 10px 50px; 
+text-underline-offset: 5px;
+text-decoration-thickness: 2px;
+  }
+  /* ===========================25% Starts Hrer+++++++++++++================================ */
+  .white-color{
+    color: white;
+}
+.section25{
+    display: flex;
+    justify-content: space-between;
+    
+;}
+
+
+.div1{
+background-color: red;width: 25%;text-align: center;padding: 10px 20px;font-size: 20px;font-weight: bold;margin: 2px;
+}
+.div2{
+background-color: green;width: 25%;text-align: center;padding: 10px 20px;font-size: 20px;font-weight: bold;margin: 2px;
+}
+
+.div3{
+background-color: #1d9bf0;width: 25%;text-align: center;padding: 10px 20px;font-size: 20px;font-weight: bold;margin: 2px;
+}
+
+.div4{
+background-color: aqua;width: 25%;text-align: center;padding: 10px 20px;font-size: 20px;font-weight: bold;margin: 2px;
+}
+
+.div5{
+    background-color: rgb(19, 209, 86);width: 25%;text-align: center;padding: 10px 20px;font-size: 20px;font-weight: bold;margin: 2px;
+    }
+    .div6{
+    background-color: rgb(55, 123, 144);width: 25%;text-align: center;padding: 10px 20px;font-size: 20px;font-weight: bold;margin: 2px;
+    }
+    
+    .div7{
+    background-color: #6d34b2;width: 25%;text-align: center;padding: 10px 20px;font-size: 20px;font-weight: bold;margin: 2px;
+    }
+    
+    .div8{
+    background-color: rgb(148, 61, 61);width: 25%;text-align: center;padding: 10px 20px;font-size: 20px;font-weight: bold;margin: 2px;
+    }
+
+#post-section{display:flex ;
+
+}
+    .section33{
+       
+        border: #d2691e 2px solid;
+        width: 33.33%;
+        margin: 10px 10px; 
+    }
+
+    .section33 h4{
+        background-color:#ab183d ;
+        color: white;
+        font-size: 20px;
+        padding: 10px;
+    }
+    .section33 ul {
+        list-style-position: inside;
+        line-height: 20px;
+    }
+    .section33 ul li a {
+        font-weight: 500;
+        color: 
+        #0000ef;
+        margin-left: 10px;
+       }
+       .section33 ul li{
+        padding: 10px;
+    }
+   
